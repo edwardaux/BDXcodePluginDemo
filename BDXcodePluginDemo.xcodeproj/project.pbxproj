@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB5CF4C16349E5200FAAC46 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB5CF4B16349E5200FAAC46 /* Cocoa.framework */; };
+		BFB5CF5616349E5200FAAC46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB5CF5416349E5200FAAC46 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDXcodePluginDemo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB5CF4B16349E5200FAAC46 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BFB5CF4E16349E5200FAAC46 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BFB5CF4F16349E5200FAAC46 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BFB5CF5016349E5200FAAC46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFB5CF5316349E5200FAAC46 /* BDXcodePluginDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BDXcodePluginDemo-Info.plist"; sourceTree = "<group>"; };
+		BFB5CF5516349E5200FAAC46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFB5CF5716349E5200FAAC46 /* BDXcodePluginDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDXcodePluginDemo-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB5CF4516349E5200FAAC46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5CF4C16349E5200FAAC46 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB5CF3D16349E5200FAAC46 = {
+			isa = PBXGroup;
+			children = (
+				BFB5CF5116349E5200FAAC46 /* BDXcodePluginDemo */,
+				BFB5CF4A16349E5200FAAC46 /* Frameworks */,
+				BFB5CF4916349E5200FAAC46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB5CF4916349E5200FAAC46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB5CF4A16349E5200FAAC46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5CF4B16349E5200FAAC46 /* Cocoa.framework */,
+				BFB5CF4D16349E5200FAAC46 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB5CF4D16349E5200FAAC46 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5CF4E16349E5200FAAC46 /* AppKit.framework */,
+				BFB5CF4F16349E5200FAAC46 /* CoreData.framework */,
+				BFB5CF5016349E5200FAAC46 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BFB5CF5116349E5200FAAC46 /* BDXcodePluginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5CF5216349E5200FAAC46 /* Supporting Files */,
+			);
+			path = BDXcodePluginDemo;
+			sourceTree = "<group>";
+		};
+		BFB5CF5216349E5200FAAC46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5CF5316349E5200FAAC46 /* BDXcodePluginDemo-Info.plist */,
+				BFB5CF5416349E5200FAAC46 /* InfoPlist.strings */,
+				BFB5CF5716349E5200FAAC46 /* BDXcodePluginDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB5CF4716349E5200FAAC46 /* BDXcodePluginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB5CF5A16349E5200FAAC46 /* Build configuration list for PBXNativeTarget "BDXcodePluginDemo" */;
+			buildPhases = (
+				BFB5CF4416349E5200FAAC46 /* Sources */,
+				BFB5CF4516349E5200FAAC46 /* Frameworks */,
+				BFB5CF4616349E5200FAAC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDXcodePluginDemo;
+			productName = BDXcodePluginDemo;
+			productReference = BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB5CF3F16349E5200FAAC46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "BlackDog Foundry";
+			};
+			buildConfigurationList = BFB5CF4216349E5200FAAC46 /* Build configuration list for PBXProject "BDXcodePluginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFB5CF3D16349E5200FAAC46;
+			productRefGroup = BFB5CF4916349E5200FAAC46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB5CF4716349E5200FAAC46 /* BDXcodePluginDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFB5CF4616349E5200FAAC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5CF5616349E5200FAAC46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB5CF4416349E5200FAAC46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFB5CF5416349E5200FAAC46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFB5CF5516349E5200FAAC46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFB5CF5816349E5200FAAC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFB5CF5916349E5200FAAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFB5CF5B16349E5200FAAC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDXcodePluginDemo/BDXcodePluginDemo-Prefix.pch";
+				INFOPLIST_FILE = "BDXcodePluginDemo/BDXcodePluginDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BFB5CF5C16349E5200FAAC46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDXcodePluginDemo/BDXcodePluginDemo-Prefix.pch";
+				INFOPLIST_FILE = "BDXcodePluginDemo/BDXcodePluginDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB5CF4216349E5200FAAC46 /* Build configuration list for PBXProject "BDXcodePluginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB5CF5816349E5200FAAC46 /* Debug */,
+				BFB5CF5916349E5200FAAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB5CF5A16349E5200FAAC46 /* Build configuration list for PBXNativeTarget "BDXcodePluginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB5CF5B16349E5200FAAC46 /* Debug */,
+				BFB5CF5C16349E5200FAAC46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB5CF3F16349E5200FAAC46 /* Project object */;
+}
