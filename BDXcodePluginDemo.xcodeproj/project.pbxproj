@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFB5CF4C16349E5200FAAC46 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB5CF4B16349E5200FAAC46 /* Cocoa.framework */; };
 		BFB5CF5616349E5200FAAC46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB5CF5416349E5200FAAC46 /* InfoPlist.strings */; };
+		BFB5CF5F16349F2500FAAC46 /* BDXcodePluginDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CF5E16349F2500FAAC46 /* BDXcodePluginDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDXcodePluginDemo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB5CF4B16349E5200FAAC46 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		BFB5CF4E16349E5200FAAC46 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		BFB5CF4F16349E5200FAAC46 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDXcodePluginDemo.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB5CF5016349E5200FAAC46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFB5CF5316349E5200FAAC46 /* BDXcodePluginDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BDXcodePluginDemo-Info.plist"; sourceTree = "<group>"; };
 		BFB5CF5516349E5200FAAC46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFB5CF5716349E5200FAAC46 /* BDXcodePluginDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDXcodePluginDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BFB5CF5D16349F2500FAAC46 /* BDXcodePluginDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDXcodePluginDemo.h; sourceTree = "<group>"; };
+		BFB5CF5E16349F2500FAAC46 /* BDXcodePluginDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDXcodePluginDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +26,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB5CF4C16349E5200FAAC46 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +35,8 @@
 		BFB5CF3D16349E5200FAAC46 = {
 			isa = PBXGroup;
 			children = (
+				BFB5CF5D16349F2500FAAC46 /* BDXcodePluginDemo.h */,
+				BFB5CF5E16349F2500FAAC46 /* BDXcodePluginDemo.m */,
 				BFB5CF5116349E5200FAAC46 /* BDXcodePluginDemo */,
 				BFB5CF4A16349E5200FAAC46 /* Frameworks */,
 				BFB5CF4916349E5200FAAC46 /* Products */,
@@ -46,7 +46,7 @@
 		BFB5CF4916349E5200FAAC46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.bundle */,
+				BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,7 +54,6 @@
 		BFB5CF4A16349E5200FAAC46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BFB5CF4B16349E5200FAAC46 /* Cocoa.framework */,
 				BFB5CF4D16349E5200FAAC46 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -63,8 +62,6 @@
 		BFB5CF4D16349E5200FAAC46 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BFB5CF4E16349E5200FAAC46 /* AppKit.framework */,
-				BFB5CF4F16349E5200FAAC46 /* CoreData.framework */,
 				BFB5CF5016349E5200FAAC46 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -105,7 +102,7 @@
 			);
 			name = BDXcodePluginDemo;
 			productName = BDXcodePluginDemo;
-			productReference = BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.bundle */;
+			productReference = BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -150,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB5CF5F16349F2500FAAC46 /* BDXcodePluginDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,12 +220,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BDXcodePluginDemo/BDXcodePluginDemo-Prefix.pch";
 				INFOPLIST_FILE = "BDXcodePluginDemo/BDXcodePluginDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
@@ -235,12 +236,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BDXcodePluginDemo/BDXcodePluginDemo-Prefix.pch";
 				INFOPLIST_FILE = "BDXcodePluginDemo/BDXcodePluginDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
 		};
@@ -263,6 +267,7 @@
 				BFB5CF5C16349E5200FAAC46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
