@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF4874121635364E00A9EC14 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4874111635364E00A9EC14 /* AppKit.framework */; };
 		BFB5CF5616349E5200FAAC46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB5CF5416349E5200FAAC46 /* InfoPlist.strings */; };
 		BFB5CF5F16349F2500FAAC46 /* BDXcodePluginDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB5CF5E16349F2500FAAC46 /* BDXcodePluginDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF4874111635364E00A9EC14 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		BFB5CF4816349E5200FAAC46 /* BDXcodePluginDemo.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDXcodePluginDemo.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB5CF5016349E5200FAAC46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFB5CF5316349E5200FAAC46 /* BDXcodePluginDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BDXcodePluginDemo-Info.plist"; sourceTree = "<group>"; };
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4874121635364E00A9EC14 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,7 @@
 		BFB5CF4D16349E5200FAAC46 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF4874111635364E00A9EC14 /* AppKit.framework */,
 				BFB5CF5016349E5200FAAC46 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
